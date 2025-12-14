@@ -23,6 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amarante" rel="stylesheet">
 </head>
 
 <body>
@@ -106,148 +107,22 @@
 
         <ul class="navbar-list">
 
+          <!-- links to main portfolio page -->
           <li class="navbar-item">
-             <a href="#about" > 
-            <button id="aboutButton" class="navbar-link  active" data-nav-link>About</button>
+             <a href="https://symsoph.github.io/" > 
+            <button id="aboutButton" class="navbar-link" >Home</button>
             </a>
           </li>
 
           <li class="navbar-item">
-            <a href="#portfolio" >
-            <button id="portfolioButton" class="navbar-link" data-nav-link>Portfolio</button>
+            <a href="" >
+            <button id="portfolioButton" class="navbar-link   active" data-nav-link>Tech-Art</button>
             </a>
           </li>
 
         </ul>
 
       </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            Sofia is a highly creative, multi-disciplinary game developer with a passion for narrative-driven experiences and thoughtful gameplay and problem-solving. With a strong foundation in both gameplay programming and illustration, she bridges the technical and artistic sides of development to craft immersive and emotionally resonant games.
-            </p>
-            <p>
-            An artist and classically-trained violist with a background in computer science, Sofia brings a unique perspective to game design — respectfully infusing her love of creative expression with new technologies. She is committed and eager to test the boundaries of what games can do.  
-            
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">Qualities and Skills</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/visual-media/teach.svg" alt="teach collab icon" width="175">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Collaboration</h4>
-
-                <p class="service-item-text">
-                  Sofia is an experienced computer science tutor for undergraduates. She finds joy in helping others learn and learning from her colleagues.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/visual-media/game.svg" alt="Game Dev icon" width="175">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Exploration</h4>
-
-                <p class="service-item-text">
-                 Sofia is unafraid of combining different specialities. She explores how game soundtracks enhance art and how programming binds everything together.  
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        
-
-
-      
-        <!--
-          - future clients
-        -->
-
-        <!-- <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar"> -->
-            <!-- <ul> keep uncommented-->
-              <!-- <li class="clients-item">
-              <a href="SoulHaven">
-                <img src="./assets/visual-media/soulhaven-cover.png" alt="SoulHaven logo">
-              </a>
-            </li> -->
-            <!-- game studio logo under demon? -->
-             
-            <!-- <li class="clients-item">
-              <a href="#">
-                <img src="./assets/visual-media/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/visual-media/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/visual-media/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/visual-media/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/visual-media/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section> -->
 
       </article>
 
@@ -258,230 +133,95 @@
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="Tech-Art  active" data-page="Tech-Art">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Technical Art</h2>
         </header>
 
         <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-             <!-- link??? -->
-              <button class="active" data-filter-btn>Everything</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>3D Modeling</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Game Programming</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Game Audio</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Full-Stack</button>
-            </li>
-            <!-- Modeling...? -->
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-select-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>Everything</button>
-              </li>
-              
-              <li class="select-item">
-                <button data-select-item>3D Modeling</button>
-              </li>
-
-              <li class="select-item">
-                  <button data-select-item>Game Programming</button>
-                </a>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Game Audio</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Full-Stack</button>
-              </li>
-
-            </ul>
-
-          </div>
-
           
           <ul class="project-list">
 
+       <!-- insert CSE 167 -->
            
-            <li class="project-item  active" data-filter-item data-category="game programming">
-              <a href="/assets/posts/soulhaven.html">
+            <!-- Mouse -->
+            <li class="project-item  active" >
+               <h2 class="proj-header-color">The Great Mouse Adventures</h2>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
 
-                  <img src="./assets/visual
--media/soulhaven-cover.png" alt="SoulHaven" loading="lazy">
-                </figure>
+                <video controls width="90%" height="50%" onloadstart="this.volume=0.5"> 
+                    <source src="https://symsoph.github.io/assets/visual-media/greatmouse-health.mov" 
+                    type="video/mp4" />
+                    alt="Settings Sync"
+                  </video> 
 
-                <h3 class="project-title">SoulHaven</h3>
-
-                <p class="project-category">Game Programming</p>
-
-              </a>
+               
+                <p >Programmed in Unity, I researched MIDI parser plugins and implemented player health system including damage SFX, damage behavior, and health icons. Play this 3D classical music rhythm game <a class="inline-blk" href="https://frndlydragon.itch.io/the-great-mouse-performance">here</a>!
+                </p>
+                <br>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="game programming">
-              <a href="/assets/posts/rhythm-game.html">
+               <!-- insert Qualcomm -->
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+             <!-- SoulHaven -->
+            <li class="project-item  active" >
+              <h2 class="proj-header-color">SoulHaven</h2>
 
-                  <img src="./assets/visual-media/greatmouse-cover.png" alt="The Great Mouse Adventures" loading="lazy">
-                </figure>
+                  <video controls width="90%" height="50%" onloadstart="this.volume=0.5"> 
+                    <source src="https://symsoph.github.io/assets/visual-media/soulhaven-sync.mp4" 
+                    type="video/mp4" />
+                    alt="Settings Sync"
+                  </video> 
 
-                <h3 class="project-title">The Great Mouse Adventures</h3>
 
-                <p class="project-category">Game Programming</p>
+                <p >
 
-              </a>
+                  After performing competitve research of similar cozy, incremental games, I created button animations such as a shine effect with a customized C# shader and a squish-and-squeeze effect in the Unity Engine. Play <a class="inline-blk" href="https://tomchung.itch.io/soulhaven">SoulHaven</a>! </p>
+                  <br>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="game audio">
-              <a href="/assets/posts/mariposa.html">
+              <!-- mRNA -->
+            <li class="project-item  active" >
+              <h2 class="proj-header-color">mRNAdventure</h2>
+              
+              <!-- insert video -->
+              <video controls width="90%" height="50%" onloadstart="this.volume=0.5"> 
+                    <source src="./assets/visual-media/mrna_reel.mp4" 
+                    type="video/mp4" />
+                    alt="mRNA Reel"
+                  </video> 
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <p >
 
-                  <img src="./assets/visual-media/mariposa-header.jpg" alt="Mariposa" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Mariposa</h3>
-
-                <p class="project-category">Game Audio</p>
-
-              </a>
+                  An educational game about how mRNA vaccines are created. I was in charge of hand-drawing and coloring 2D environment backgrounds and playable puzzle assets while producing sound effects and music. I'm planning to release a mobile update of the game with improved puzzle prompts and button prompts for a more seemless player experience. Play <a class="inline-blk" href="https://moon-goose.itch.io/mrnadventure">mRNAdventure</a> (no blood involved)! </p>
+                  <br>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="game programming">
-              <a href="/assets/posts/fruitcut.html">
+            <!-- insert qualcomm -->
+             <li class="project-item  active" >
+              <h2 class="proj-header-color">Cognitive Cities</h2>
+                   <!-- <figure class="project-img"> -->
+                  <img src="https://symsoph.github.io/assets/visual-media/hotel-west-inn-initial.png" width="90%" height="50%">
+                    
+               
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <p >
 
-                  <img src="./assets/visual-media/fruit-cover.PNG" alt="Cut Fruit" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fruit Cut (WIP)</h3>
-
-                <p class="project-category">Game Programming</p>
-
-              </a>
+                  I was an Unreal Engine 5 (UE5) Modeling intern for the Cognitive Cities research project at the Qualcomm Institute (QI) at UC San Diego! I was tasked with ideating ways to make modeling in UE5 more accessible and understandable for non-technical users. In addition, I also created my own project centered around green energy, in which I utilized UE5 to identify where UCSD should implement solar panels to cut down electricity costs. Learn more <a class="inline-blk" href="https://symsoph.github.io/assets/posts/qualcommXunreal.html" >here</a>.</p>
+                  <br>
             </li>
+            <!-- inserst CSES UI/UX -->
 
-            <li class="project-item  active" data-filter-item data-category="full-stack">
-              <a href="https://github.com/symsoph/CBS_Carousel">
+           <li class="project-item  active" >
+              <h2 class="proj-header-color">CSES Open-Source Website Design</h2>
+                   <!-- <figure class="project-img"> -->
+                  <img src="./assets/visual-media/cses-figma.png" width="90%" height="50%">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/visual-media/cbs-600x450.PNG" alt="Cute CBS/Carousel" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">CBS Carousel</h3>
-
-                <p class="project-category">Full-Stack</p>
-
-              </a>
+                <p >
+                  I worked on a small design team to utilize Figma and designed the preliminary web flow, look, and feel of the Open Source division of the Computer Science and Engineering Society (CSES) at UC San Diego. I conducted customer research and usability tests which I incorporated into my low fidelity and high fidelity designs. View my <a class="inline-blk" href="https://www.figma.com/design/SPw5BF6Ev5ehTQSvGu9iIZ/CSES-Open-Source-Website?node-id=0-1&p=f">full design process</a>.</p>
+                  <br>
             </li>
-
-              <li class="project-item  active" data-filter-item data-category="full-stack">
-              <a href="https://github.com/cse110-sp24-team24/cse110-sp24-team24">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/visual-media/paw_icon.png" alt="Purrfect Notes" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Purrfect Notes</h3>
-
-                <p class="project-category">Full-Stack</p>
-
-              </a>
-            </li>
-            
-             <li class="project-item  active" data-filter-item data-category="3d modeling">
-              <a href="/assets/posts/qualcommXunreal.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/visual-media/qi-icon.jpg" width="300" height="300" alt="Qualcomm Institute" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Cognitive Cities</h3>
-
-                <p class="project-category">3D Modeling</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="3d modeling">
-              <a href="/assets/posts/shadertoy.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/visual-media/shadertoy-cover.png" width="300" height="350" alt="Shadertoy" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Shadertoy</h3>
-
-                <p class="project-category">3D Modeling</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
 
       </article> 
 
@@ -490,20 +230,6 @@
     
 
   </main>
-
-
-<!--Footer-->
-    <!-- <div class="anchor">
-      <section class="contact-form">
-        <footer>
-          <div class="input-wrapper">
-            <small> &copy; 2025 Sofia Nguyen</small>
-          </div>
-        </footer>
-      </section>
-    </div> -->
-
-
 
   <!--
     - custom js link

@@ -450,12 +450,14 @@ main {
 }
 
 .social-item .social-link {
-  color: var(--light-gray-70);
+  color: var(--light-gray-70);  /* original */
+  /* color: var(--light-gray); // new */
   font-size: 25px;
 }
 
 
-.social-item .social-link:hover { color: var(--light-gray); }
+.social-item .social-link:hover,
+.social-item .social-link:focus  { color: var(--light-gray); }
 
 
 

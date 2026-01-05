@@ -164,7 +164,8 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-h1, h2 { font-family: var(--ff-amarante); }
+h1, h2 { font-family: var(--ff-amarante); 
+padding: 0;}
 
 body { background: var(--violet); }
 
@@ -1035,6 +1036,7 @@ a:hover {
 
 .proj-header-color {
   color: whitesmoke;
+  padding: 0;
 }
 
 
